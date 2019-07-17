@@ -1,3 +1,15 @@
+/* universal styles */
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px; 
+}
+
 
 /*header*/
 
@@ -63,6 +75,16 @@ div {
   margin-right: 32px;
 }
 
+/* large column */
+
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
 .column.large {
   width: 630px;
   align-items: flex-start;
@@ -88,9 +110,13 @@ font-weight: bold;
 font-size: 40px;
 color: white;
 
+/* medium column */
+
 .column.medium {
   width: 300px;
 }
+
+/* small column */
 
 .column.small {
   width: 240px;
